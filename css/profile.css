@@ -1,6 +1,6 @@
-*, *::after, *::before {box-sizing: border-box; font-family: "pretendard";} 
+*, *::after, *::before {box-sizing: border-box; font-family: "pretendard" !important;} 
 html {margin:0; padding:0;} 
-body {background: #fff; color:#161616; min-width:1450px; max-width:1500px; margin:0 auto; font-family:"pretendard";}
+body {background: #fff; color:#161616; min-width:1450px; max-width:1500px; margin:0 auto;}
 a {text-decoration: none; color:#161616;}
 
 #first {width:100vw; height:100vh; background:linear-gradient(60deg, #61AAFF 10%, #FF6F61 90%); position:fixed; left: 0 !important; top:0; z-index: 9999; background-size:400% 400%; animation: colorChange 8s ease infinite; display:flex; justify-content:center; align-items:center; transition:1.5s ease;}
